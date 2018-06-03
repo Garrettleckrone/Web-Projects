@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/*CSS Resets*/
+
+/*Box-Sizing: This will help you with your box-model math*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+/*Links - I took off that awful underline and changed the link color.*/
+a {text-decoration: none; color:pink;}
+
+/*Non Bold Headings*/
+h1, h2, h3, h4, h5, h6 {font-weight:normal;}
+
+/*Take bullets off of lists*/
+li {list-style:none;}
+
+
+body {}
+
+/*The Parallax Header*/
+.parallax{
+	background:url('../img/image8.jpeg') no-repeat 100%;
+
+
+}
+.parallax-inner{
+	padding-top:10%;
+	padding-bottom: 15%;
+}
+.summary{
+	text-align: center;
+	font-size: 1.3em;
+	padding-top: 1em;
+	padding-bottom:.5em;
+	background-color:darkkhaki
+}
+.imageaftersummary{
+	background:url('../img/image4.jpeg') fixed no-repeat 100%;
+}
+.imageaftersummaryinner{
+	padding-top:15em;
+	padding-bottom:15em;
+}
+.preamble{
+	padding-bottom: 2em;
+	font-size:1.1em;
+	background-color:darkseagreen
+}
+#zen-supporting{
+	font-size:1.3em;
+}
+.explanation{
+	padding-bottom: 2em;
+	background-color:darkseagreen;
+}
+.participation{
+	padding-bottom: 2em;
+	background-color:darkseagreen;
+}
+.benefits{
+	padding-bottom: 2em;
+	background-color:darkseagreen;
+}
+.requirements{
+	padding-bottom: 2em;
+	background-color:darkseagreen
+}
+.sidebar{
+	background:url("../img/image10.jpg");
+
+}
+nav{
+	text-align: center;
+	color:black;
+
+}
+.zen-resources{
+	text-align: center;
+	padding-bottom:2em;
+}
+
+footer{
+	text-align: center;
+	background-color:darkseagreen;
+	font-size:1.5em;
+}
+/*Study the HTML and pull tags, ids, and classes to use. I have a couple html selectors below to get you started. You will need to call more than this for your designs.*/
+a {
+	color:blue;
+	text-decoration: underline;
+}
+
+p {
+	text-align: center;
+	padding-bottom:.5em;
+	padding-left:4em;
+	padding-right:6em;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+h1 {text-align:center;
+	font-size:1300%;
+	color:#EDEDF5;
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+
+}
+
+h2 {text-align:center;
+	font-size:400%;
+	color:#EDEDF5;
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+h3 {text-align: center;
+	padding:.5em;
+	font-size:3em;
+}
+h4{text-align: center;
+	padding:.5em;
+	font-size:3em;
+}
+ul {}
+
+li {}
