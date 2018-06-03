@@ -1,0 +1,244 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+
+/*OnePage*/
+html, body {height: 100%;}
+
+/*FontAwesome*/
+/* Icon */
+.icon {text-decoration: none;border-bottom: none;position: relative;}
+.icon:before {-moz-osx-font-smoothing: grayscale;-webkit-font-smoothing: antialiased;font-family: FontAwesome;font-style: normal;font-weight: normal;text-transform: none !important;}
+.icon>.label {display: none;}
+
+
+/* 
+	Your Code Goes After This 
+*/
+
+
+
+/*Generic Stuff*/
+body {
+	color: #9a9a9a;
+	background-color:#fefefe;
+	
+	/*Full-Screen Background Image*/
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+h1 {text-align: center;
+	font-size: 50px;
+	color:white;
+	text-shadow:5px 5px grey, 0 0 10px #FED47B;
+	
+}
+/*
+	landingheader used to exlusively change the size of the h1 on the landing page
+*/
+h2 {
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 1em;
+	margin-top:1em;
+	font-size:30px;
+	color:white;
+	text-shadow:1px 1px grey, 0 0 6px #FED47B;
+	
+}
+p{
+	padding:1em;
+	font-size:18px;
+	color:white;
+	text-shadow:1px 1px grey, 0 0 4px #FED47B;
+}
+li{
+	font-size:18px;
+	color:white;
+	text-shadow:1px 1px grey, 0 0 4px #FED47B;
+	text-decoration: underline;
+}
+.menulistitems{
+	text-decoration:none;
+	text-shadow:none;
+	color:white;
+}
+
+/* Lead is used to describe the H2 on the first page.
+   This is to add the text-shadow effects exclusively
+*/
+.lead{
+	text-align:center;
+	font-size:24px;
+	text-shadow:2px 2px grey, 0 0 10px #FED47B;
+}
+/* Kingdom Headers For Each Section */
+.kingdomHeader{
+	font-stretch: normal;
+	font-size:48px;
+	padding-bottom: .2em;
+
+}
+
+.demaciah2{
+	color:black;
+	
+
+}
+.demaciaParagraph{
+	color:black;
+
+}
+.demacialink{
+	color:black;
+	text-decoration: underline;
+}
+#firsttext{
+	
+	padding:0px;
+	margin-bottom: 2em;
+	overflow-y:scroll;
+	max-height: 300px;
+}
+#secondtext{
+	
+	padding:0px;
+	margin-bottom: 2em;
+	overflow-y:scroll;
+	max-height: 300px;
+}
+#runeterracontainer{
+	width:100%;
+}
+.row{
+	margin-bottom:2em;
+	min-height:400px;
+}
+.runeterrarow1{
+	padding: .5em .5em .5em .5em;
+	color:white;
+}
+.runeterrarow2{
+	padding: .5em .5em .5em .5em;
+	color:white;
+}
+#runeterraheaderinner{
+	min-height:35px;
+	text-align: center;
+	padding-bottom:3em;
+	text-transform: uppercase;
+}
+.img-thumbnail{
+
+	min-height:300px;
+	max-height: 300px;
+	size:auto;
+}
+
+/*Sections*/
+#home {
+	min-height: 100%;
+	padding-top:5em;
+	color:#ffffff;
+}
+
+#one {
+	background: url("../img/demacia/demaciabackground.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	min-height: 100%;
+	min-width:100%;
+	padding-top:3em;
+}
+
+#two{
+	background: url("../img/noxus/noxusbackground.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	min-height: 100%;
+	min-width:100%;
+	padding-top:3em;
+}
+
+#three {
+	background: url("../img/zaun/zaunbackground.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	min-height: 100%;
+	min-width:100%;
+	padding-top:3em;
+}
+#four {
+	background: url("../img/bilgewater/bilgewaterbackground.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	min-height: 100%;
+	min-width:100%;
+	padding-top:3em;
+}
+#fifth {
+	background: url("../img/shurima/shurimabackground.jpeg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	min-height: 100%;
+	min-width:100%;
+	padding-top:3em;
+}
+#container {
+  position: absolute;
+  top: 50%;
+  margin-top: -200px;
+  /* half of #content height*/
+  left: 0;
+  width: 100%;
+}
+
+#content {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 395px;
+}
+#landingHeader{
+	font-size: 72px;
+}
+
+#demaciaimages{
+	vertical-align: middle;
+}
+#demaciaHeader{
+	color:black;
+}
+.shurimaTextToBlack{
+	/*This is awkward but
+	I didnt like how black
+	looked and I'm lazy lol, this has instead been repurpose for text shadows*/
+	text-shadow:2px 2px black, 0 0 10px #FED47B;
+}
+footer {
+	background-color:black;
+}
+
+#footertext{
+	margin:0px;
+	padding:.5em;
+}
